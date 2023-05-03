@@ -10,6 +10,22 @@ const routes: Routes = [
   {
     path: 'calentamiento',
     loadChildren: () => import('./calentamiento/calentamiento.module').then( m => m.CalentamientoPageModule)
+  },
+  {
+    path: 'tren-superior',
+    loadChildren: () => import('./tren-superior/tren-superior.module').then( m => m.TrenSuperiorPageModule)
+  },
+  {
+    path: 'tren-inferior',
+    loadChildren: () => import('./tren-inferior/tren-inferior.module').then( m => m.TrenInferiorPageModule)
+  },
+  {
+    path: 'abdomen',
+    loadChildren: () => import('./abdomen/abdomen.module').then( m => m.AbdomenPageModule)
+  },
+  {
+    path: 'cardio',
+    loadChildren: () => import('./cardio/cardio.module').then( m => m.CardioPageModule)
   }
 ];
 

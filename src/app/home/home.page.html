@@ -8,7 +8,7 @@
 
 <ion-content [fullscreen]="true">
   <div id="container">
-    <ion-item *ngFor="let item of items" button (click)="navigate(item.link)">
+    <ion-item *ngFor="let item of items" button (click)="this.router.navigateByUrl(item.link)">
       <ion-label>
         <h2>{{ item.h }}</h2>
         <p>{{ item.p }}</p>

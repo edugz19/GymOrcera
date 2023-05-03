@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon name="chevron-back" (click)="this.router.navigateByUrl('home')"></ion-icon>
+    </ion-buttons>
+    <ion-title>Tren Inferior</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="home" (click)="this.router.navigateByUrl('home')"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-item *ngFor="let item of items" button (click)="this.router.navigateByUrl(item.link)">
+      <ion-label>
+        <h2>{{ item.h }}</h2>
+      </ion-label>
+    </ion-item>
+  </div>
+</ion-content>
