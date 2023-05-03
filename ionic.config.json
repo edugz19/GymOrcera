@@ -1,0 +1,7 @@
+{
+  "name": "GymOrcera",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
