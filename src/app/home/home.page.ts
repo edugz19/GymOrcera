@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,21 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  items = [
+    { h: 'Calentamiento', p: 'Activa tu cuerpo de arriba a abajo', link: '/home/calentamiento'},
+    { h: 'Tren superior', p: 'Ejercicios para pecho, espalda, hombros, etc', link: 'home//tren-superior', },
+    { h: 'Tren Inferior', p: 'Ejercicios para piernas y glúteos', link: 'home/tren-inferior' },
+    { h: 'Abdomen', p: 'Entrenamiento de todo el abdomen', link: 'home/abdomen' },
+    { h: 'Cardio', p: 'Ejercicios para quemar calorías', link: 'home/cardio' },
+    { h: 'Estiramientos', p: 'Estira todos tus músculos', link: 'home/estiramientos' }
+  ];
+
+  constructor(
+    private router: Router
+  ) {}
+
+  navigate(url: string) {
+    this.router.navigateByUrl(url);
+  }
 
 }

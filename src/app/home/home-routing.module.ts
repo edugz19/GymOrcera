@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: '',
     component: HomePage,
+  },
+  {
+    path: 'calentamiento',
+    loadChildren: () => import('./calentamiento/calentamiento.module').then( m => m.CalentamientoPageModule)
   }
 ];
 
