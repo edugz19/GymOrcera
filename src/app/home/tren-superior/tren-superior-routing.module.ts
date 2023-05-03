@@ -11,6 +11,14 @@ const routes: Routes = [
   {
     path: 'pecho',
     loadChildren: () => import('./pecho/pecho.module').then( m => m.PechoPageModule)
+  },
+  {
+    path: 'biceps',
+    loadChildren: () => import('./biceps/biceps.module').then( m => m.BicepsPageModule)
+  },
+  {
+    path: 'hombros',
+    loadChildren: () => import('./hombros/hombros.module').then( m => m.HombrosPageModule)
   }
 ];
 

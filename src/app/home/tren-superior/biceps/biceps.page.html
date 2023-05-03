@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-icon name="chevron-back" (click)="this.router.navigateByUrl('home/tren-superior')"></ion-icon>
     </ion-buttons>
-    <ion-title>Pecho</ion-title>
+    <ion-title>Bíceps</ion-title>
     <ion-buttons slot="end">
       <ion-icon name="home" (click)="this.router.navigateByUrl('home')"></ion-icon>
     </ion-buttons>
@@ -14,9 +14,6 @@
   <ion-segment [value]="segment" [scrollable]="true" (ionChange)="segmentChanged($event)">
     <ion-segment-button value="peso_corporal">
       <ion-label>Peso Corporal</ion-label>
-    </ion-segment-button>
-    <ion-segment-button value="maquinaria">
-      <ion-label>Maquinaria</ion-label>
     </ion-segment-button>
     <ion-segment-button value="barra">
       <ion-label>Barra</ion-label>
@@ -37,18 +34,6 @@
       <div *ngIf="item.i !== undefined" class="img">
         <img [src]="item.i" />
       </div>
-    </ion-card>
-  </div>
-
-  <div *ngIf="segment === 'maquinaria'">
-    <ion-card *ngFor="let item of maquinaria" style="margin-bottom: 20px;">
-      <ion-card-header>
-        <ion-card-subtitle style="font-size: 20px; text-align: center;">{{ item.t }}</ion-card-subtitle>
-      </ion-card-header>
-      <div *ngIf="item.i !== undefined" class="img">
-        <img [src]="item.i" />
-      </div>
-      <ion-card-content style="text-align: justify;">{{ item.d }}</ion-card-content>
     </ion-card>
   </div>
 
