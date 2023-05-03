@@ -19,6 +19,22 @@ const routes: Routes = [
   {
     path: 'hombros',
     loadChildren: () => import('./hombros/hombros.module').then( m => m.HombrosPageModule)
+  },
+  {
+    path: 'antebrazos',
+    loadChildren: () => import('./antebrazos/antebrazos.module').then( m => m.AntebrazosPageModule)
+  },
+  {
+    path: 'trapecio',
+    loadChildren: () => import('./trapecio/trapecio.module').then( m => m.TrapecioPageModule)
+  },
+  {
+    path: 'triceps',
+    loadChildren: () => import('./triceps/triceps.module').then( m => m.TricepsPageModule)
+  },
+  {
+    path: 'dorsales',
+    loadChildren: () => import('./dorsales/dorsales.module').then( m => m.DorsalesPageModule)
   }
 ];
 

@@ -13,8 +13,7 @@ export class TrenSuperiorPage implements OnInit {
     { h: 'Bíceps', link: 'home/tren-superior/biceps', },
     { h: 'Hombros', link: 'home/tren-superior/hombros' },
     { h: 'Antebrazos', link: 'home/tren-superior/antebrazos' },
-    { h: 'Trapecio Superior', link: 'home/tren-superior/trapecio-superior' },
-    { h: 'Trapecio Medio', link: 'home/tren-superior/trapecio-medio' },
+    { h: 'Trapecio', link: 'home/tren-superior/trapecio' },
     { h: 'Tríceps', link: 'home/tren-superior/triceps' },
     { h: 'Dorsales', link: 'home/tren-superior/dorsales' },
   ];

@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon name="chevron-back" (click)="this.router.navigateByUrl('home/tren-superior')"></ion-icon>
+    </ion-buttons>
+    <ion-title>Dorsales</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="home" (click)="this.router.navigateByUrl('home')"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-segment [value]="segment" [scrollable]="true" (ionChange)="segmentChanged($event)">
+    <ion-segment-button value="peso_corporal">
+      <ion-label>Peso Corporal</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="maquinaria">
+      <ion-label>Maquinaria</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="barra">
+      <ion-label>Barra</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="poleas">
+      <ion-label>Poleas</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="mancuernas">
+      <ion-label>Mancuernas</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div *ngIf="segment === 'peso_corporal'">
+    <ion-card *ngFor="let item of peso_corporal" style="margin-bottom: 20px;">
+      <ion-card-header>
+        <ion-card-subtitle style="font-size: 20px; text-align: center;">{{ item.t }}</ion-card-subtitle>
+      </ion-card-header>
+      <div *ngIf="item.i !== undefined" class="img">
+        <img [src]="item.i" />
+      </div>
+    </ion-card>
+  </div>
+
+  <div *ngIf="segment === 'maquinaria'">
+    <ion-card *ngFor="let item of maquinaria" style="margin-bottom: 20px;">
+      <ion-card-header>
+        <ion-card-subtitle style="font-size: 20px; text-align: center;">{{ item.t }}</ion-card-subtitle>
+      </ion-card-header>
+      <div *ngIf="item.i !== undefined" class="img">
+        <img [src]="item.i" />
+      </div>
+    </ion-card>
+  </div>
+
+  <div *ngIf="segment === 'barra'">
+    <ion-card *ngFor="let item of barra" style="margin-bottom: 20px;">
+      <ion-card-header>
+        <ion-card-subtitle style="font-size: 20px; text-align: center;">{{ item.t }}</ion-card-subtitle>
+      </ion-card-header>
+      <div *ngIf="item.i !== undefined" class="img">
+        <img [src]="item.i" />
+      </div>
+    </ion-card>
+  </div>
+
+  <div *ngIf="segment === 'poleas'">
+    <ion-card *ngFor="let item of poleas" style="margin-bottom: 20px;">
+      <ion-card-header>
+        <ion-card-subtitle style="font-size: 20px; text-align: center;">{{ item.t }}</ion-card-subtitle>
+      </ion-card-header>
+      <div *ngIf="item.i !== undefined" class="img">
+        <img [src]="item.i" />
+      </div>
+    </ion-card>
+  </div>
+
+  <div *ngIf="segment === 'mancuernas'">
+    <ion-card *ngFor="let item of mancuernas" style="margin-bottom: 20px;">
+      <ion-card-header>
+        <ion-card-subtitle style="font-size: 20px; text-align: center;">{{ item.t }}</ion-card-subtitle>
+      </ion-card-header>
+      <div *ngIf="item.i !== undefined" class="img">
+        <img [src]="item.i" />
+      </div>
+    </ion-card>
+  </div>
+</ion-content>
