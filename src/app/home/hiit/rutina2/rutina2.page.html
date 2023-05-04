@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon name="chevron-back" (click)="this.router.navigateByUrl('home/hiit')"></ion-icon>
+    </ion-buttons>
+    <ion-title>Rutina 2 (HIIT)</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="home" (click)="this.router.navigateByUrl('home')"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div class="info">
+    <p>Se deben realizar los <b>ejercicios durante 30 segundos</b> a alta intensidad. <b>Descansos de 30 segundos</b> entre ejercicios. <b>Repetir el circuito 4 veces</b>.</p>
+  </div>
+
+  <ion-card *ngFor="let item of rutina" style="margin-bottom: 20px;">
+    <ion-card-header>
+      <ion-card-subtitle style="font-size: 20px; text-align: center;">{{ item.t }}</ion-card-subtitle>
+    </ion-card-header>
+    <div *ngIf="item.i !== undefined" class="img">
+      <img [src]="item.i" />
+    </div>
+  </ion-card>
+
+</ion-content>

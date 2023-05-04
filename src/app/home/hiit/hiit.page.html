@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon name="chevron-back" (click)="this.router.navigateByUrl('home')"></ion-icon>
+    </ion-buttons>
+    <ion-title>Rutinas HIIT</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="home" (click)="this.router.navigateByUrl('home')"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="intro">
+    <h2>¿Qué es el HIIT?</h2>
+    <p>El término HIIT proviene del concepto en inglés High Intensity Interval Training. Podríamos definirlo como
+      periodos repetidos de ejercicio de alta intensidad
+      desarrollados a la máxima velocidad o potencia intercalados con periodos de ejercicio de baja intensidad o reposo
+      absoluto.</p>
+    <p>El entrenamiento HIIT supone un trabajo más exigente para las capacidades cardiorespiratorias, mejorando nuestra
+      resistencia de forma notable en poco tiempo.</p>
+    <p><b>El ejercicio deberá hacerse mínimo al 75% de nuestra capacidad para poder obtener todos los beneficios que
+        contiene.</b>
+    </p>
+  </div>
+
+  <div class="rutinas">
+    <h3>Elige tu rutina</h3>
+    <ion-card *ngFor="let item of items" style="margin-bottom: 10px;" (click)="this.router.navigateByUrl(item.link)">
+      <ion-card-header>
+        <ion-card-title style="font-size: 20px; text-align: center;">{{ item.h }}</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+  </div>
+</ion-content>

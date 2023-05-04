@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'cardio',
     loadChildren: () => import('./cardio/cardio.module').then( m => m.CardioPageModule)
+  },
+  {
+    path: 'hiit',
+    loadChildren: () => import('./hiit/hiit.module').then( m => m.HiitPageModule)
   }
 ];
 

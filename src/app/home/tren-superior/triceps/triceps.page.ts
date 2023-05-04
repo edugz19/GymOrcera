@@ -11,7 +11,7 @@ export class TricepsPage implements OnInit {
   segment: string = 'peso_corporal';
 
   peso_corporal = [
-    { t: 'Flexiones diamante', i: 'https://www.cutypaste.com/wp-content/uploads/2016/10/DiamondPushup.gif' },
+    { t: 'Flexiones diamante', i: 'http://blog.ferrato.com/wp-content/uploads/2019/01/5.gif' },
     { t: 'Fondos en banco', i: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fondos-en-banco-1621951812.gif?resize=320:*' }
   ];
 

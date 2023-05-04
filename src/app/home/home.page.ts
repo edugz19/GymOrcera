@@ -14,6 +14,7 @@ export class HomePage {
     { h: 'Tren Inferior', p: 'Ejercicios para piernas y glúteos', link: 'home/tren-inferior' },
     { h: 'Abdomen', p: 'Entrenamiento de todo el abdomen', link: 'home/abdomen' },
     { h: 'Cardio', p: 'Ejercicios para quemar calorías', link: 'home/cardio' },
+    { h: 'Rutinas HIIT', p: 'Ejercicios con peso corporal y a gran intensidad', link: 'home/hiit' },
     { h: 'Estiramientos', p: 'Estira todos tus músculos', link: 'home/estiramientos' }
   ];
 
