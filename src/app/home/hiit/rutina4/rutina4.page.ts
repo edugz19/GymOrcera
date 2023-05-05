@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class Rutina4Page implements OnInit {
 
   rutina = [
-    { t: 'Burpees', i: 'https://sworkit.com/wp-content/uploads/2020/06/sworkit-jumping-jack.gif' },
+    { t: 'Burpees', i: 'https://media1.popsugar-assets.com/files/2014/02/27/847/n/1922729/1baf9ec0f5ce4ea9_burpee.3.gif.xxxlarge.gif' },
     { t: 'Mountain Climbers', i: 'https://hips.hearstapps.com/hmg-prod/images/workouts/2016/08/mountainclimberrunning-1472061754.gif' },
     { t: 'Flexiones', i: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pushup-1525365829.gif?crop=1.00xw:0.501xh;0,0.266xh&resize=640:*' },
     { t: 'Skater Jumps', i: 'https://i.pinimg.com/originals/f5/6d/4e/f56d4ede81655fb34bedf0ec9430bfde.gif' },

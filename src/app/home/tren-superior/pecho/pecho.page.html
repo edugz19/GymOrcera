@@ -11,7 +11,7 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-segment [value]="segment" [scrollable]="true" (ionChange)="segmentChanged($event)">
+  <ion-segment [value]="segment" [scrollable]="true" (ionChange)="segmentChanged($event)" mode="md">
     <ion-segment-button value="peso_corporal">
       <ion-label>Peso Corporal</ion-label>
     </ion-segment-button>
@@ -57,7 +57,7 @@
       <ion-card-header>
         <ion-card-subtitle style="font-size: 20px; text-align: center;">{{ item.t }}</ion-card-subtitle>
       </ion-card-header>
-      <div *ngIf="item.i !== undefined" class="img">
+      <div *ngIf="item.i !== undefined" class="img"> 
         <img [src]="item.i" />
       </div>
     </ion-card>
