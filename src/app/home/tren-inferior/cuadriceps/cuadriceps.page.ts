@@ -23,7 +23,7 @@ export class CuadricepsPage implements OnInit {
   ];
 
   maquinaria = [
-    { t: 'Máquina de femorales', i: this.url + 'maquina femorales.webp', d: 'Para trabajar los cuádriceps deberá ponerse el contrapeso, usando la palaca, en una de las posiciones 1, 2 o 3, quedando abajo. Tras esto, colocar los pies por detrás del contrapeso, ajustar el peso y el acolchamiento a los cuádriceps, y realizar el empuje hacia arriba hasta llegar a una posición horizontal.' },
+    { t: 'Extensión de pierna en máquina', i: this.url + 'maquina femorales.webp', d: 'Para trabajar los cuádriceps deberá ponerse el contrapeso, usando la palaca, en una de las posiciones 1, 2 o 3, quedando abajo. Tras esto, colocar los pies por detrás del contrapeso, ajustar el peso y el acolchamiento a los cuádriceps, y realizar el empuje hacia arriba hasta llegar a una posición horizontal.' },
   ];
 
   barra = [

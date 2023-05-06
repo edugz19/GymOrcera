@@ -21,7 +21,7 @@ export class PechoPage implements OnInit {
   ];
 
   maquinaria = [
-    { t: 'Press de Pecho', i: 'https://cdn.ossfitness.com/img/full/M5020%20-%20Etenon%20Dual%20Press%20pecho%20-%20hombro.jpg', d: 'Se debe colocar el respaldo en posición tumbada, y bajar el agarre a una posición cómoda. Ajustar el peso y elevar el agarre, y bajar sin llegar al tope. Cambiar ligeramente de posición para trabajar distintas zonas del pectoral. ' }
+    { t: 'Press de Pecho', i: '', d: 'Se debe colocar el respaldo en posición tumbada, y bajar el agarre a una posición cómoda. Ajustar el peso y elevar el agarre, y bajar sin llegar al tope. Cambiar ligeramente de posición para trabajar distintas zonas del pectoral. ' }
   ];
 
   barra = [
