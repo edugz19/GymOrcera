@@ -1,7 +1,7 @@
 {
-  "name": "GymOrcera",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
+  "name": "gym-orcera",
+  "version": "1.0.0",
+  "author": "Edu García",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
@@ -62,5 +62,5 @@
     "ts-node": "~8.3.0",
     "typescript": "~4.8.4"
   },
-  "description": "An Ionic project"
+  "description": "Aplicación para el Gimnasio de Orcera, donde se explican todos los ejercicios posibles para realizar dentro de las instalaciones."
 }

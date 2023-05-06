@@ -30,6 +30,10 @@ const routes: Routes = [
   {
     path: 'hiit',
     loadChildren: () => import('./hiit/hiit.module').then( m => m.HiitPageModule)
+  },
+  {
+    path: 'estiramientos',
+    loadChildren: () => import('./estiramientos/estiramientos.module').then( m => m.EstiramientosPageModule)
   }
 ];
 

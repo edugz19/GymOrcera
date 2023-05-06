@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon name="chevron-back" (click)="this.router.navigateByUrl('home')"></ion-icon>
+    </ion-buttons>
+    <ion-title>Estiramientos</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="home" (click)="this.router.navigateByUrl('home')"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div class="intro">
+    <p>Los estiramientos son una parte fundamental que no debemos saltarnos, ya que ayuda a prevenir lesiones y mejorar
+      la flexibilidad. Para que los estiramientos sean efectivos <b>debemos ejecutarlos al menos durante 20 segundos</b>.</p>
+    <p>A continuación se muestra un circuito full body que podemos realizar cada día que asistamos a una sesión en el gimnasio.</p>
+  </div>
+
+  <ion-card *ngFor="let item of items" style="margin-bottom: 20px;">
+    <ion-card-header>
+      <ion-card-subtitle style="font-size: 20px; text-align: center;">{{ item.t }}</ion-card-subtitle>
+    </ion-card-header>
+    <div *ngIf="item.i !== undefined" class="img">
+      <img [src]="item.i" />
+    </div>
+  </ion-card>
+</ion-content>
