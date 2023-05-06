@@ -17,8 +17,8 @@ export class DorsalesPage implements OnInit {
   ];
 
   maquinaria = [
-    { t: 'Jalón al pecho', i: this.url + '' },
-    { t: 'Remo en polea baja', i: this.url + '' }
+    { t: 'Jalón al pecho', i: 'assets/images/tren-superior/dorsales remo medio.webp', d: 'Deberá coger el agarre superior y sentarse con la espalda recta, las piernas por debajo del acolchamiento en un ángulo de 90 grados. Una vez realizada la posición deberá sacar hacia fuera los pectorales y tirar del agarre hacia ellos.' },
+    { t: 'Remo medio', i: 'assets/images/tren-superior/dorsales remo medio.webp', d: 'Deberá coger el agarre inferior, colocar los pies sobre las plataformas y las piernas casi estiradas. Una vez realizada la posición deberá llevar el agarre hacia el abdomen.' }
   ]
 
   barra = [

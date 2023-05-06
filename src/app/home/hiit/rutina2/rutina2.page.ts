@@ -9,11 +9,11 @@ import { Router } from '@angular/router';
 export class Rutina2Page implements OnInit {
 
   rutina = [
-    { t: 'Burpees', i: 'https://media1.popsugar-assets.com/files/2014/02/27/847/n/1922729/1baf9ec0f5ce4ea9_burpee.3.gif.xxxlarge.gif' },
-    { t: 'Sentadillas con salto', i: 'https://www.actitudfem.com/files/media/files/rutina-para-reducir-cintura.gif' },
-    { t: 'Zancadas (hacia atrás o delante)', i: 'https://3.bp.blogspot.com/-pZWlazl6Mrw/WoiZhD7tKVI/AAAAAAAAbEQ/Yc6CxAboCJgB-Kn-vQL_A7jsZAAZ7TgWwCLcBGAs/s1600/step%2Bby%2Bstep%2Bexercises%2Bzancadas.gif' },
-    { t: 'Mountain Climbers', i: 'https://hips.hearstapps.com/hmg-prod/images/workouts/2016/08/mountainclimberrunning-1472061754.gif' },
-    { t: 'Tijeras', i: 'https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/XDRI4C35WNBX3KIUEVU4VPLRRE.gif' }
+    { t: 'Burpees', i: 'assets/images/tren-inferior/cuadriceps/burpee.webp' },
+    { t: 'Sentadillas con salto', i: 'assets/images/tren-inferior/cuadriceps/sentadilla con salto.webp' },
+    { t: 'Zancadas (hacia atrás o delante)', i: 'assets/images/tren-inferior/cuadriceps/zancada frontal.webp' },
+    { t: 'Mountain Climbers', i: 'assets/images/abdomen/mountain climbers.webp' },
+    { t: 'Tijeras', i: 'assets/images/abdomen/tijeras.webp' }
   ];
 
   constructor(

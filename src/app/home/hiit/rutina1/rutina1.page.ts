@@ -9,11 +9,11 @@ import { Router } from '@angular/router';
 export class Rutina1Page implements OnInit {
 
   rutina = [
-    { t: 'Jumping Jacks', i: 'https://sworkit.com/wp-content/uploads/2020/06/sworkit-jumping-jack.gif' },
-    { t: 'Flexiones (negativas o apoyo rodillas si resulta complicado)', i: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pushup-1525365829.gif?crop=1.00xw:0.501xh;0,0.266xh&resize=640:*' },
-    { t: 'Sentadillas', i: 'https://media.tenor.com/OI0eQbBWOYUAAAAC/sentadilla.gif' },
-    { t: 'Mountain Climbers', i: 'https://hips.hearstapps.com/hmg-prod/images/workouts/2016/08/mountainclimberrunning-1472061754.gif' },
-    { t: 'Plancha', i: 'https://uploads-ssl.webflow.com/609aa41bb752e648eb4cb693/610385bb1ea3fa831ee371ba_pexels-photo-2294354.jpeg' }
+    { t: 'Jumping Jacks', i: 'assets/images/calentamiento/jumping jacks.webp' },
+    { t: 'Flexiones (negativas o apoyo rodillas si resulta complicado)', i: 'assets/images/tren-superior/pecho/flexion.webp' },
+    { t: 'Sentadillas', i: 'assets/images/tren-inferior/cuadriceps/sentadilla.webp' },
+    { t: 'Mountain Climbers', i: 'assets/images/abdomen/mountain climbers.webp' },
+    { t: 'Plancha', i: 'assets/images/abdomen/plancha.webp' }
   ];
 
   constructor(

@@ -9,12 +9,12 @@ import { Router } from '@angular/router';
 export class Rutina4Page implements OnInit {
 
   rutina = [
-    { t: 'Burpees', i: 'https://media1.popsugar-assets.com/files/2014/02/27/847/n/1922729/1baf9ec0f5ce4ea9_burpee.3.gif.xxxlarge.gif' },
-    { t: 'Mountain Climbers', i: 'https://hips.hearstapps.com/hmg-prod/images/workouts/2016/08/mountainclimberrunning-1472061754.gif' },
-    { t: 'Flexiones', i: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pushup-1525365829.gif?crop=1.00xw:0.501xh;0,0.266xh&resize=640:*' },
-    { t: 'Skater Jumps', i: 'https://i.pinimg.com/originals/f5/6d/4e/f56d4ede81655fb34bedf0ec9430bfde.gif' },
-    { t: 'Plancha', i: 'https://uploads-ssl.webflow.com/609aa41bb752e648eb4cb693/610385bb1ea3fa831ee371ba_pexels-photo-2294354.jpeg' },
-    { t: 'Hollow Hold', i: 'https://hips.hearstapps.com/hmg-prod/images/workouts/2016/03/lyinghollowbodyhold-1457044774.gif' }
+    { t: 'Burpees', i: 'assets/images/tren-inferior/cuadriceps/burpee.webp' },
+    { t: 'Mountain Climbers', i: 'assets/images/abdomen/mountain climbers.webp' },
+    { t: 'Flexiones explosivas', i: 'assets/images/tren-superior/pecho/flexion explosiva.webp' },
+    { t: 'Skater Jumps', i: 'assets/images/calentamiento/skater jumps.webp' },
+    { t: 'Long lever', i: 'assets/images/abdomen/long lever.webp' },
+    { t: 'Hollow Hold', i: 'assets/images/abdomen/hollow hold.webp' }
   ];
 
   constructor(

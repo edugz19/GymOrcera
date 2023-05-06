@@ -16,7 +16,7 @@ export class HombrosPage implements OnInit {
   ];
 
   maquinaria = [
-    { t: 'Press de Hombro', i: this.url + '', d: 'Se debe colocar el respaldo en posición inclinada, y colocar el agarre en la parte superior. Ajustar el peso y elevar el agarre, y bajar sin llegar al tope. Cambiar ligeramente de posición para trabajar distintas zonas de los hombros. ' }
+    { t: 'Press de Hombro', i: 'assets/images/tren-superior/press pecho hombro.webp', d: 'Se debe colocar el respaldo en posición inclinada, y colocar el agarre en la parte superior. Ajustar el peso y elevar el agarre, y bajar sin llegar al tope. Cambiar ligeramente de posición para trabajar distintas zonas de los hombros. ' }
   ];
 
   barra = [

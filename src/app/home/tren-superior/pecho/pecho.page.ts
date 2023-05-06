@@ -13,15 +13,15 @@ export class PechoPage implements OnInit {
 
   peso_corporal = [
     { t: 'Flexión Clásica', i: this.url + 'flexion.webp' },
-    { t: 'Flexión Isométrica', i: this.url +  '' },
-    { t: 'Flexión de Arquero', i: this.url + '' },
+    { t: 'Flexión Isométrica', i: this.url +  'flexion isometrica.webp' },
+    { t: 'Flexión de Arquero', i: this.url + 'flexion arquero.webp' },
     { t: 'Flexión Inclinada', i: this.url + 'flexion inclinada.webp' },
     { t: 'Flexión Declinada', i: this.url + 'flexion declinada.webp' },
-    { t: 'Flexión Explosiva', i: this.url + '' },
+    { t: 'Flexión Explosiva', i: this.url + 'flexion explosiva.webp' },
   ];
 
   maquinaria = [
-    { t: 'Press de Pecho', i: '', d: 'Se debe colocar el respaldo en posición tumbada, y bajar el agarre a una posición cómoda. Ajustar el peso y elevar el agarre, y bajar sin llegar al tope. Cambiar ligeramente de posición para trabajar distintas zonas del pectoral. ' }
+    { t: 'Press de Pecho', i: 'assets/images/tren-superior/press pecho hombro.webp', d: 'Se debe colocar el respaldo en posición tumbada, y bajar el agarre a una posición cómoda. Ajustar el peso y elevar el agarre, y bajar sin llegar al tope. Cambiar ligeramente de posición para trabajar distintas zonas del pectoral. ' }
   ];
 
   barra = [

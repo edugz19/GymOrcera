@@ -19,7 +19,7 @@ export class IsquiotibialesPage implements OnInit {
   ];
 
   maquinaria = [
-    { t: 'Máquina de femorales', i: this.url + 'maquina femorales.webp', d: 'Para trabajar los cuádriceps deberá ponerse el contrapeso, usando la palaca, en una de las posiciones 1, 2 o 3, quedando abajo. Tras esto, colocar los pies por detrás del contrapeso, ajustar el peso y el acolchamiento a los cuádriceps, y realizar el empuje hacia arriba hasta llegar a una posición horizontal.' },
+    { t: 'Curl de isquios en máquina', i: 'assets/images/tren-inferior/curl femoral.webp', d: 'Para trabajar los cuádriceps deberá ponerse el contrapeso, usando la palaca, en una de las posiciones 4, 5 o 6, quedando arriba. Tras esto, colocar los pies por encima del contrapeso, ajustar el peso y el acolchamiento a los cuádriceps, y realizar el empuje hacia abajo hasta llegar a una posición aproximada de 90 grados.' },
   ];
 
   barra = [
